@@ -216,3 +216,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Segurança do TelegramBot-GmailOpportunities
+# ==========================================
+
+# Pasta de Segredos e Variações de .env
+Secrets/*
+!Secrets/.gitkeep
+.env*
+!.env.example
+
+# Credenciais e Tokens Google / Gmail
+*credentials*.json
+client_secret*.json
+token.json
+token.pickle
+*.pem
+*.key
+
+# Pasta de Dados, Armazenamento Local e Bancos de Dados
+Data/*
+!Data/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Configurações de IDE e SO
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
